@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Task-container{
+  display: flex;
+  width: 400px;
+  border-radius: 10px;
+ border: 2px solid #6495ED;
+ background: #FFFAF0;
+}
+
+.Task-completed-container{
+  display: table;
+  width: 400px;
+  margin-top:5px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.Todo-list-completed-container{
+  display: table-row;
+}
+
+.Task-title{
+  font-size: large;
+  color: red;
+  display: inline-block;
+  width: 400px;
+}
+
+.Task-btn-add{
+  position: absolute;
+  left: 370px;
+}
+
+.Todo-list-container{
+  list-style: none;
+  width: 400px;
+  margin-left:0px;
+  padding-left:0px;
+}
+
+
+
+.Todo-list-container li{
+  width: 400px;
+  padding-left: 0px;
+  /*border-bottom: 1px solid black;*/
+  margin: 0 2px 0 0;
+  float: left;
+}
+
+.mark {
+    text-decoration: line-through;
+}
+
+.Task-btn-remove {
+    position: absolute;
+    left: 380px;
+    /*padding: 12px 16px 12px 16px;*/
+}
+
+.Task-btn-collapse {
+    position: absolute;
+    left: 380px;
+    /*padding: 12px 16px 12px 16px;*/
+}
+
+.Task-btn-collapse:hover {
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+}
+
+.Task-completed-title{
+  color:#8FBC8F;
+}
+
+.hide{
+  display: none;
+}
+
+.Task-completed-count{
+  margin-left: 5px;
+  margin-right: 20px;
+}
+
+.Task-btn-remove:hover {
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+}
+
+
+.Todo-list-inline-checkbox{
+  margin-right: 20px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
