@@ -6,5 +6,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 4. update latest npm version type npm install npm@latest -g in terminal.
 5. clone project at https://github.com/smallhum/basic-todo-list.git
 6. access to directory type “cd basic-todo-list”.
-7. create react app type “npm create-react-app my-app” wait until installation is done.
+7. create react app type “npm create-react-app” wait until installation is done.
 8. start application type “npm start”.
